@@ -15,5 +15,16 @@ module.exports = {
 		}
 
 		return true;
+	},
+
+	print: function(range) {
+
+		for(let i = 0; i < range.length; i++){
+			console.log(range[i]);
+
+		}
+	
 	}
+	
 }
+
